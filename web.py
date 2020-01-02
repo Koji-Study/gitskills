@@ -20,20 +20,20 @@ def Application(environ, start_response):                               # 一个
             b'<a href="#i2">第二部分_函数解答</a><br>'
             b'<a href="#i3">第三部分_超链接</a><br>'
             b'<a href="#i4">第四部分_其他</a><br>'
-            b'<a id="i1" style="color: red""height:60px">第一部分_宋词</a><br>'
+            b'<a id="i1"><style="color: red""height:60px">第一部分_宋词</a><br>'
             b'<pre>'
             b'<strong>雨霖铃·寒蝉凄切</strong><br>'
             b'宋代：柳永<br>'
             b'寒蝉凄切，对长亭晚，骤雨初歇。都门帐饮无绪，留恋处，兰舟催发。执手相看泪眼，竟无语凝噎。念去去，千里烟波，暮霭沉沉楚天阔。<br>'
             b'更那堪，冷落清秋节！今宵酒醒何处？杨柳岸，晓风残月。此去经年，应是良辰好景虚设。便纵有千种风情，更与何人说？<br>'
             b'</pre>'
-            b'<a id="i2" style="color: yellow""height:60px">第二部分_函数解答</a><br>'
+            b'<a id="i2"><style="color: yellow""height:60px">第二部分_函数解答</a><br>'
             b'求解数学方程x<sup>2</sup>+x+6=0.<br/>'
             b'所得解:x<sub>1</sub>=-3,x<sub>2</sub>=2'
-            b'<a id="i3" style="color: blue""height:600px">第三部分_超链接</a><br>'
+            b'<a id="i3"><style="color: blue""height:600px">第三部分_超链接</a><br>'
             #<!--新建一个浏览器窗口并打开-->
             b'<a href="http://www.baidu.com" target="_blank"> 百度</a><br>'
-            b'<a id="i4" style="color: green""height:600px">第四部分_其他</a><br>'
+            b'<a id="i4"><style="color: green""height:600px">第四部分_其他</a><br>'
             b'</body>']     #return出来是响应内容
 
 if __name__ == '__main__':
