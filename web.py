@@ -16,7 +16,7 @@ def Application(environ, start_response):                               # 一个
             b'</head>'
             #b'<a href="">http://www.baidu.com/ target = "_blank" </a>'
             b'<body>'
-            b'<a href="#i1">THE FIRST PART</a><br>'
+            b'<a href="#i1">第一部分</a><br>'
             b'<a href="#i2">THE SECOND PART</a><br>'
             b'<a href="#i3">THE THIRD PART</a><br>'
             b'<a href="#i4">THE FOURTH PART</a><br>'
