@@ -29,7 +29,7 @@ def Application(environ, start_response):                               # 一个
             b'</pre>'
             b'<a id="i2"><style="color: yellow""height:60px">第二部分_函数解答</a><br>'
             b'求解数学方程x<sup>2</sup>+x+6=0.<br/>'
-            b'所得解:x<sub>1</sub>=-3,x<sub>2</sub>=2'
+            b'所得解:x<sub>1</sub>=-3,x<sub>2</sub>=2.<br>'
             b'<a id="i3"><style="color: blue""height:600px">第三部分_超链接</a><br>'
             #<!--新建一个浏览器窗口并打开-->
             b'<a href="http://www.baidu.com" target="_blank"> 百度</a><br>'
